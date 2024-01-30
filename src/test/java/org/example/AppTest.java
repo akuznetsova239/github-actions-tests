@@ -4,13 +4,14 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MainTest {
+class AppTest {
+    private App app;
 
     @BeforeEach
     void setUp() {
-       Main my_class= main();
+        app = new App();
     }
 
     @AfterEach
@@ -18,10 +19,8 @@ class MainTest {
     }
 
     @Test
-    void main() {
-    }
-
-    @Test
     void add() {
+        int result = app.add(10, 5);
+        assertEquals(result,15);
     }
 }
