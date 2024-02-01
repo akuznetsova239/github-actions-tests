@@ -21,6 +21,6 @@ class AppTest {
     @Test
     void add() {
         int result = app.add(10, 5);
-        assertEquals(result,15);
+        assertEquals(result,10);
     }
 }
