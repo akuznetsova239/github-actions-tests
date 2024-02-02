@@ -7,5 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: ./gradlew test --no-build-cache
+      - run: ./gradlew run
+
 
 
