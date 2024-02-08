@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a8433c-bf9e-4e69-9511-23333633fd79" name="Changes" comment="And more steps">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/my_basic_app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/my_basic_app/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="60a8433c-bf9e-4e69-9511-23333633fd79" name="Changes" comment="Add slack notification" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706550076261</updated>
       <workItem from="1706550077922" duration="27503000" />
-      <workItem from="1707400848352" duration="1855000" />
+      <workItem from="1707400848352" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="Test added">
       <created>1706616895600</created>
@@ -166,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706880044294</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add slack notification">
+      <created>1707405902010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707405902010</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add slack notification">
+      <created>1707406075971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707406075971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +186,8 @@
     <MESSAGE value="Yml Added" />
     <MESSAGE value="Corrected test" />
     <MESSAGE value="And more steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="And more steps" />
+    <MESSAGE value="Add slack notification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add slack notification" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
