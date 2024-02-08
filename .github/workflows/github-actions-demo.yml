@@ -1,13 +1,18 @@
 name: github-actions-tests
-run-name: ${{ github.actor }}Run unittest
+run-name: ${{ github.actor }} Run demo workflow
 on: [push]
 jobs:
   OnPush:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ./gradlew test --no-build-cache
-      - run: ./gradlew run
+      - name:  Run unittest
+        run: ./gradlew test --no-build-cache
+      - name:  Run application
+        run: ./gradlew run
+      - name: Send Slack notification
+        run: |
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, this is a message from GitHub Actions!"}' ${{ secrets.SLACK_WEBHOOK_URL }}
 
 
 
