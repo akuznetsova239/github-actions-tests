@@ -5,7 +5,7 @@ jobs:
   OnPush:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }} and action is ${{github.event}} or ${{github.event}} or $GITHUB_EVENT_NAME."
       - uses: actions/checkout@v4
       - name:  Run unittest
         run: ./gradlew test --no-build-cache
