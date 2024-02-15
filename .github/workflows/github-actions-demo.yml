@@ -13,7 +13,7 @@ jobs:
         run: ./gradlew run
       - name: Send Slack notification
         run: |
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, this is a message from GitHub Actions!"}' ${{ secrets.SLACK_WEBHOOK_URL }}
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, this is a message from GitHub Actions! Branch: ${{ github.ref }}" from user "${{ github.actor }} event github.action"}' ${{ secrets.SLACK_WEBHOOK_URL }}
 
 
 
