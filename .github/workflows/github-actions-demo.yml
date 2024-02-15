@@ -1,10 +1,11 @@
 name: github-actions-tests
 run-name: ${{ github.actor }} Run demo workflow
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   OnPush:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - uses: actions/checkout@v4
       - name:  Run unittest
         run: ./gradlew test --no-build-cache
