@@ -1,6 +1,6 @@
 name: github-actions-tests
 run-name: ${{ github.actor }} Run demo workflow
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   OnPush:
     runs-on: ubuntu-latest

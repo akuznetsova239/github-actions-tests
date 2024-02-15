@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a8433c-bf9e-4e69-9511-23333633fd79" name="Changes" comment="Some fix">
+    <list default="true" id="60a8433c-bf9e-4e69-9511-23333633fd79" name="Changes" comment="Add branch">
       <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706550076261</updated>
       <workItem from="1706550077922" duration="27503000" />
-      <workItem from="1707400848352" duration="4456000" />
+      <workItem from="1707400848352" duration="6927000" />
     </task>
     <task id="LOCAL-00001" summary="Test added">
       <created>1706616895600</created>
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707406128285</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add branch">
+      <created>1707483170945</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707483170945</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +219,8 @@
     <MESSAGE value="And more steps" />
     <MESSAGE value="Add slack notification" />
     <MESSAGE value="Some fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some fix" />
+    <MESSAGE value="Add branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add branch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
