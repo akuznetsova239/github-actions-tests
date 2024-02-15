@@ -5,7 +5,7 @@ jobs:
   OnPush:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }} and action is ${{github.event}} or ${{github.event}} or $GITHUB_EVENT_NAME."
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }} and action is $GITHUB_EVENT_NAME."
       - uses: actions/checkout@v4
       - name:  Run unittest
         run: ./gradlew test --no-build-cache
@@ -13,7 +13,7 @@ jobs:
         run: ./gradlew run
       - name: Send Slack notification
         run: |
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, this is a message from GitHub Actions! Branch: ${{ github.ref }}" from user "${{ github.actor }} event "${{github.action }}"}' ${{ secrets.SLACK_WEBHOOK_URL }}
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, this is a message from GitHub Actions! Branch: ${{ github.ref }} from user ${{ github.actor }}"}' ${{ secrets.SLACK_WEBHOOK_URL }}
 
 
 
